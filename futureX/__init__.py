@@ -9,4 +9,6 @@ def get_path():
     else:
         future_path = os.path.join(current_dir, 'python3')
 
+    return future_path
+
 sys.path.append(get_path())
